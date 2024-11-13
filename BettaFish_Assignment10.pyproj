@@ -35,10 +35,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="mainPackage\" />
+    <Folder Include="dataPackage\" />
     <Folder Include="spotifyPackage\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.12" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataPackage\spotify_new_releases.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
